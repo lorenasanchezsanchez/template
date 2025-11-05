@@ -1,23 +1,20 @@
-# Apunts# Apunts
+# Apunts
 
-Els apunts d'aquest curs estan organitzats en diferents blocs o unitats.Els apunts d'aquest curs estan dividits en els següents blocs:
+Els apunts d'aquest curs estan dividits en els següents blocs:
 
-
-
-Aquesta és una pàgina índex que pots utilitzar per crear enllaços a les diferents seccions del teu curs.- [[introduccio-index]]
-
+- [[introduccio-index]]
 - [[branques-index]]
-
-## Estructura recomanada- [[remots-index]]
-
+- [[remots-index]]
 - [[avancat-index]]
-
-Cada bloc o unitat pot tenir la seua pròpia carpeta amb:- [[estrategies-index]]
-
+- [[estrategies-index]]
 - [[projectes-index]]
+- [[educativa-index]]
 
-- `index.md`: Pàgina d'inici del bloc amb un resum i enllaços als temes- [[educativa-index]]
+## Estructura recomanada
 
+Cada bloc o unitat pot tenir la seua pròpia carpeta amb:
+
+- `index.md`: Pàgina d'inici del bloc amb un resum i enllaços als temes
 - Fitxers de contingut (teoria, exercicis, exemples, etc.)
 - `transparencies.md`: Presentació per a classe (opcional)
 - `exercici.md`: Exercicis pràctics

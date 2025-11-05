@@ -1,58 +1,26 @@
-------
+---
+template: document.html
+title: "Bloc 1: Introducció a Git"
+alias: introduccio-index
+hide:
+  - toc
+---
 
-title: "Unitat 1: Exemple d'introducció"title: "Bloc 1: Introducció a Git"
+## Bloc 1: Introducció a Git
 
-alias: unitat1-indexalias: introduccio-index
-
-hide:hide:
-
-  - toc  - toc
-
-------
-
-
-
-## Unitat 1: Exemple d'introducció## Bloc 1: Introducció a Git
-
-Aquest és un exemple d'estructura per a una unitat o bloc del teu curs.En aquest primer bloc del curs, es veuran els __conceptes bàsics__
-
-de [__:simple-git: Git__][git] i com configurar-lo localment.
+En aquest primer bloc del curs, es veuran els __conceptes bàsics__ de [__:simple-git: Git__][git] i com configurar-lo localment.
 
 Pots utilitzar aquesta estructura com a referència per crear les teues pròpies unitats.
 
 [git]: https://git-scm.com/
 
 !!! example "Estructura d'aquesta unitat"
-
     Aquesta unitat d'exemple conté diferents tipus de contingut organitzat per a facilitar la navegació i l'aprenentatge.
 
-/// html | div.timeline
-
-/// html | div.timeline[[preparacio]]: Configuració inicial del nostre entorn de treball.
-
-**Preparació**: Configuració inicial del nostre entorn de treball.///
-
-////// html | div.timeline
-
-/// html | div.timeline[[introduccio]]: Introducció i conceptes bàsics.
-
-**Introducció**: Introducció i conceptes bàsics.> [[introduccio-slides]]
-
-> Transparències de presentació///
-
-////// html | div.timeline.dashed
-
-/// html | div.timeline.dashed[[introduccio-resum]]: Resum de les comandes d'aquest bloc.
-
-**Resum**: Resum dels conceptes clau d'aquesta unitat.///
-
-////// html | div.timeline.success.check
-
-/// html | div.timeline.success.check[[introduccio-exercici]]: Exercici pràctic d'aquest bloc.
-
-**Exercici**: Exercici pràctic d'aquesta unitat.///
-
-///
+- [[preparacio]] — Configuració inicial del nostre entorn de treball.
+- [[introduccio]] — Introducció i conceptes bàsics. Vegeu també [[introduccio-slides]] per a les transparències.
+- [[introduccio-resum]] — Resum dels conceptes clau d'aquesta unitat.
+- [[introduccio-exercici]] — Exercici pràctic d'aquesta unitat.
 
 ## Contingut d'aquesta unitat
 
