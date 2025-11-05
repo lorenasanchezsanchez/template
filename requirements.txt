@@ -1,4 +1,4 @@
-mkdocs-material-joapuiib~=2.0
+# El tema personalitzat està a la carpeta temaMaterialLorena/
 mkdocs-material[imaging]
 mkdocs-git-committers-plugin-2~=2.5
 mkdocs-static-i18n

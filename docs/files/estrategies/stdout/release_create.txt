@@ -1,7 +1,0 @@
-anna@fp:~/git_estrategies/anna (develop) $ git checkout -b release/v1.0.0
-Switched to a new branch 'release/v1.0.0'
-anna@fp:~/git_estrategies/anna (release/v1.0.0) $ git lga
-* f9152dc - (0 seconds ago) Merge branch 'feature/author' - Mar (HEAD -> release/v1.0.0, origin/develop, develop)
-* b7bf0a5 - (1 second ago) Merge branch 'feature/license' - Pau
-* 2bc4029 - (2 seconds ago) Merge branch 'feature/readme' - Anna
-* ec0e2bd - (4 seconds ago) Commit inicial - Joan Puigcerver (origin/main, origin/HEAD, main)

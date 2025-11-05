@@ -1,6 +1,6 @@
-site_name: "Introducció a Git i la seua aplicació a l'aula"
+site_name: "Nombre"
 site_author: "Lorena Sánchez Sánchez"
-site_url: https://lorenasanchezsanchez.github.io/CURS_GIT/
+site_url: https://lorenasanchezsanchez.github.io/NombreRepo/
 dev_addr: 127.0.0.1:4567
 
 repo_name: lorenasanchezsanchez/CURS_GIT
@@ -23,7 +23,7 @@ watch:
   - overrides
 
 theme:
-  name: material-joapuiib
+  name: temaMaterialLorena
   custom_dir: overrides
   icon:
     logo: simple/git
@@ -32,13 +32,13 @@ theme:
     logo: false
     background: false
 
-  comments:
-    repo: lorenasanchezsanchez/curs-git
-    repo_id: R_kgDOMi7ohg
-    category: General
-    category_id: DIC_kwDOMi7ohs4Ch1Lw
-    mapping: pathname
-    reactions-enabled: true
+  # comments:
+  #   repo: lorenasanchezsanchez/repo
+  #   repo_id: TU_REPO_ID
+  #   category: General
+  #   category_id: TU_CATEGORY_ID
+  #   mapping: pathname
+  #   reactions-enabled: true
 
   # cover: 
   #   logo: false
@@ -73,11 +73,11 @@ plugins:
   - material/search
   - material/social:
       enabled: !ENV [CI, false]
-  - material-joapuiib/enviorment
-  - material-joapuiib/functions:
+  - temaMaterialLorena/enviorment
+  - temaMaterialLorena/functions:
       load_file:
         files_dir: files
-  - material-joapuiib/sectionicons
+  - temaMaterialLorena/sectionicons
   - i18n:
       languages:
         - locale: ca
@@ -102,10 +102,13 @@ plugins:
             prep: Preparació
             recommend: Recomanació
             picture: Imatge
-  - git-revision-date-localized # Després de i18n o falla
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+      locale: es
   - git-committers:
       enabled: !ENV [CI, false]
-      repository: joapuiib/curs-git
+      repository: usuari/repositori
       branch: main
       exclude_committers:
         - web-flow
@@ -139,7 +142,7 @@ markdown_extensions:
   - pymdownx.critic
   - pymdownx.caret
   - pymdownx.emoji:
-      emoji_index: !!python/name:material_joapuiib.extensions.emoji.twemoji
+      emoji_index: !!python/name:temaMaterialLorena.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.fancylists:
       inject_class: true
@@ -166,7 +169,7 @@ markdown_extensions:
   - toc:
       permalink: true
       toc_depth: 4
-  - material_joapuiib.extensions.collapse_code:
+  - temaMaterialLorena.extensions.collapse_code:
       expand_text: ''
       expand_title: ''
       collapse_text: ''

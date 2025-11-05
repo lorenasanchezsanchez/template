@@ -1,9 +1,0 @@
-Pa
-Macarrons
-<<<<<<< HEAD
-Pomes
-Bresquilles
-=======
-Tomaques
-Creïlles
->>>>>>> verdura

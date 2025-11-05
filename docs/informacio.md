@@ -5,12 +5,12 @@ hide:
 
 # Informació
 
-## :fontawesome-regular-face-smile-beam: Si t'ha agradat aquest curs...
-Si aquest curs t'ha semblat útil i interessant,
+## :fontawesome-regular-face-smile-beam: Si t'ha agradat aquest projecte...
+Si aquest projecte t'ha semblat útil i interessant,
 dona-li una :star:{ title="Estrella" .star }
-al [__repositori de :simple-github: GitHub__][curs-git]!
+al [__repositori de :simple-github: GitHub__][repo]!
 
-  [curs-git]: https://github.com/lorenasanchezsanchez/CURS_GIT.git
+  [repo]: https://github.com/usuari/repositori
 
 
 ## :simple-creativecommons: Llicència
@@ -19,6 +19,13 @@ Aquest material està llicenciat baix la llicència
 
 [license]: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ca
 
+!!! note "Nota sobre la llicència"
+    Pots canviar la llicència del teu projecte. Altres opcions populars són:
+    
+    - MIT License
+    - Apache License 2.0
+    - GNU GPL v3
+    - Creative Commons (diverses variants)
 
 
 ## :fontawesome-solid-laptop-code: Desenvolupament
@@ -38,3 +45,16 @@ Aquest lloc web està desenvolupat amb les següents eines i llibreries:
 - __[PySpelling](https://facelessuser.github.io/pyspelling/){:target="_blank"}__: Corrector ortogràfic.
 - __[:simple-diagramsdotnet: draw.io](https://app.diagrams.net/){:target="_blank"}__: Web per a la creació de diagrames en línia.
     {.spell-ignore}
+
+
+## :material-account-group: Autor/a
+- **Nom**: El teu nom
+- **Email**: el.teu.email@example.com
+- **GitHub**: [@usuari](https://github.com/usuari)
+
+
+## :material-help-circle: Suport
+Si tens algun dubte o suggeriment, pots:
+
+- Obrir una [__issue__](https://github.com/usuari/repositori/issues) al repositori
+- Contactar amb l'autor/a directament
