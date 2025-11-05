@@ -1,0 +1,13 @@
+mar@fp:~/git_estrategies $ cd ~/git_estrategies/mar
+mar@fp:~/git_estrategies/mar (feature/author) $ git fetch
+From ~/git_estrategies/remot
+   ec0e2bd..b7bf0a5  develop    -> origin/develop
+mar@fp:~/git_estrategies/mar (feature/author) $ git lga
+* b7bf0a5 - (0 seconds ago) Merge branch 'feature/license' - Pau (origin/develop)
+* 2bc4029 - (1 second ago) Merge branch 'feature/readme' - Anna
+| * a216550 - (2 seconds ago) Autors: Mar - Mar (HEAD -> feature/author, origin/feature/author)
+| * 1d5ba44 - (2 seconds ago) Autors: Pau - Mar
+| * 8683319 - (2 seconds ago) Autors: Anna - Mar
+| * 24be503 - (2 seconds ago) README.md: Secció d'autors - Mar
+|/  
+* ec0e2bd - (3 seconds ago) Commit inicial - Joan Puigcerver (origin/main, origin/HEAD, main, develop)

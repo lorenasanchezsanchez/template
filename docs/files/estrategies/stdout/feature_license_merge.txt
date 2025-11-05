@@ -1,0 +1,20 @@
+pau@fp:~/git_estrategies/pau (develop) $ git checkout feature/license
+Your branch is up to date with 'origin/feature/license'.
+Switched to branch 'feature/license'
+pau@fp:~/git_estrategies/pau (feature/license) $ git merge --no-ff --no-edit develop # (1)!
+Merge made by the 'ort' strategy.
+ README.md | 6 ++++++
+ 1 file changed, 6 insertions(+)
+pau@fp:~/git_estrategies/pau (feature/license) $ git lga
+*   5b6d510 - (0 seconds ago) Merge branch 'develop' into feature/license - Pau (HEAD -> feature/license)
+|\  
+| * 2bc4029 - (1 second ago) Merge branch 'feature/readme' - Anna (origin/develop, develop)
+* | c213387 - (2 seconds ago) LICENSE: Enllaç a la llicència - Pau (origin/feature/license)
+* | b11b498 - (2 seconds ago) LICENSE: Afegida llicència - Pau
+|/  
+| * a216550 - (2 seconds ago) Autors: Mar - Mar (origin/feature/author)
+| * 1d5ba44 - (2 seconds ago) Autors: Pau - Mar
+| * 8683319 - (2 seconds ago) Autors: Anna - Mar
+| * 24be503 - (2 seconds ago) README.md: Secció d'autors - Mar
+|/  
+* ec0e2bd - (3 seconds ago) Commit inicial - Joan Puigcerver (origin/main, origin/HEAD, main)

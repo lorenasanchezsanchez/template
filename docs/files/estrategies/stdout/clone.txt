@@ -1,0 +1,27 @@
+jpuigcerver@fp:~/git_estrategies/remot (main) $ cd ~/git_estrategies
+jpuigcerver@fp:~/git_estrategies $ git clone remot anna
+Cloning into 'anna'...
+done.
+jpuigcerver@fp:~/git_estrategies $ git clone remot pau
+Cloning into 'pau'...
+done.
+jpuigcerver@fp:~/git_estrategies $ git clone remot mar
+Cloning into 'mar'...
+done.
+jpuigcerver@fp:~/git_estrategies $ git clone remot carles
+Cloning into 'carles'...
+done.
+jpuigcerver@fp:~/git_estrategies $ tree .
+.
+├── anna
+│   └── README.md
+├── carles
+│   └── README.md
+├── mar
+│   └── README.md
+├── pau
+│   └── README.md
+└── remot
+    └── README.md
+
+6 directories, 5 files

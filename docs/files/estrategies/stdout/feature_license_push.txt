@@ -1,0 +1,19 @@
+pau@fp:~/git_estrategies/pau (develop) $ git push
+To ~/git_estrategies/remot
+   2bc4029..b7bf0a5  develop -> develop
+pau@fp:~/git_estrategies/pau (develop) $ git lga
+* b7bf0a5 - (0 seconds ago) Merge branch 'feature/license' - Pau (HEAD -> develop, origin/develop)
+| *   5b6d510 - (0 seconds ago) Merge branch 'develop' into feature/license - Pau (feature/license)
+| |\  
+| |/  
+|/|   
+* | 2bc4029 - (1 second ago) Merge branch 'feature/readme' - Anna
+| * c213387 - (2 seconds ago) LICENSE: Enllaç a la llicència - Pau (origin/feature/license)
+| * b11b498 - (2 seconds ago) LICENSE: Afegida llicència - Pau
+|/  
+| * a216550 - (2 seconds ago) Autors: Mar - Mar (origin/feature/author)
+| * 1d5ba44 - (2 seconds ago) Autors: Pau - Mar
+| * 8683319 - (2 seconds ago) Autors: Anna - Mar
+| * 24be503 - (2 seconds ago) README.md: Secció d'autors - Mar
+|/  
+* ec0e2bd - (3 seconds ago) Commit inicial - Joan Puigcerver (origin/main, origin/HEAD, main)

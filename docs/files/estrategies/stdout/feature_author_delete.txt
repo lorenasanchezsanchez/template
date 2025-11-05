@@ -1,0 +1,10 @@
+mar@fp:~/git_estrategies/mar (develop) $ git branch -D feature/author
+Deleted branch feature/author (was 72afb5a).
+mar@fp:~/git_estrategies/mar (develop) $ git push origin --delete feature/author
+To ~/git_estrategies/remot
+ - [deleted]         feature/author
+mar@fp:~/git_estrategies/mar (develop) $ git lga
+* f9152dc - (0 seconds ago) Merge branch 'feature/author' - Mar (HEAD -> develop, origin/develop)
+* b7bf0a5 - (1 second ago) Merge branch 'feature/license' - Pau
+* 2bc4029 - (2 seconds ago) Merge branch 'feature/readme' - Anna
+* ec0e2bd - (4 seconds ago) Commit inicial - Joan Puigcerver (origin/main, origin/HEAD, main)

@@ -1,0 +1,3 @@
+jpuigcerver@fp:~/git_estrategies/remot (main) $ git branch develop
+jpuigcerver@fp:~/git_estrategies/remot (main) $ git lga
+* ec0e2bd - (0 seconds ago) Commit inicial - Joan Puigcerver (HEAD -> main, develop)
