@@ -7,3 +7,4 @@ mkdocs-drawio
 mkdocs-awesome-nav
 mkdocs-alias-plugin
 mkdocs-git-revision-date-localized-plugin
+markdown_grid_tables
