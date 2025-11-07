@@ -108,7 +108,7 @@ plugins:
       locale: es
   - git-committers:
       enabled: !ENV [CI, false]
-      repository: usuari/repositori
+      repository: lorenasanchezsanchez/template
       branch: main
       exclude_committers:
         - web-flow
