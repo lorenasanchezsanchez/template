@@ -1,5 +1,11 @@
 from setuptools import setup, find_packages
 
+# Read requirements from temaMaterialLorena/requirements.txt
+import os
+requirements_path = os.path.join(os.path.dirname(__file__), 'temaMaterialLorena', 'requirements.txt')
+with open(requirements_path) as f:
+    install_requires = [line.strip() for line in f if line.strip() and not line.startswith('#')]
+
 setup(
     name='temaMaterialLorena',
     version='1.0.0',
@@ -8,9 +14,7 @@ setup(
     package_data={
         'temaMaterialLorena': ['templates/*', 'templates/**/*'],
     },
-    install_requires=[
-        'mkdocs-material',
-    ],
+    install_requires=install_requires,
     entry_points={
         'mkdocs.themes': [
             'temaMaterialLorena = temaMaterialLorena.templates',
